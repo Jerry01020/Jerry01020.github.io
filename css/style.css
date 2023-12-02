@@ -1,0 +1,104 @@
+
+html, body {
+    font-family: "微软雅黑"
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul li {
+    float: left;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 14px;
+    text-align: center;
+    list-style: none;
+}
+
+.triangle_left {
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-left: 8px solid #8db1d5;
+    border-bottom: 4px solid transparent;
+}
+
+.banner {
+    width: 100%;
+}
+.banner>img{
+    display: block;
+    width: 100%;
+}
+
+
+.nav {
+    width: 1000px;
+    height: 50px;
+    background-color: white;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+
+.main:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.hot-box {
+    width: 560px;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.hot-box > img {
+    display: block;
+    float: left;
+    width: 200px;
+}
+
+.hot-box .message {
+    float: right;
+    width: 340px;
+}
+
+.hot-box .message p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #999;
+}
+
+.new-box {
+    width: 560px;
+    padding: 20px 20px 0;
+    overflow: hidden;
+}
+
+.new-box .new {
+    float: left;
+    width: 260px;
+}
+
+.new-box .new > img {
+    display: block;
+    width: 100%;
+}
+
+.new-box .new > p {
+    line-height: 40px;
+    text-align: center;
+}
+
+.foot{
+    width: 100%;
+    text-align: center;
+    line-height: 60px;
+    background-color: #eee;
+}
